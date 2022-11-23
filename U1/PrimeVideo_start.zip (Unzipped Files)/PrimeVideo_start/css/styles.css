@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e171e;
+}
+
+nav{
+    top: 0px;
+    width: 100% ;
+    position: absolute;
+    display: flex;
+    justify-content:space-around ;
+    background-color: #1a242e;
+    background: linear-gradient(
+    90deg,
+    rgba(26, 35, 46, 1) 0%,
+    rgba(25, 36, 46, 1) 29%,
+    rgba(35, 52, 68, 1) 66%,
+    rgba(26, 35, 46, 1) 100%
+  );
+}
+
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    height: 25px;
+    width: 150px;
+    color: white;
+    background-color: #0e171e;
+    border-color: white 2px solid;
+}
+
+.usuario{
+    text-align: center;
+    height: 25px;
+    background-color: aqua;
+    color: white;
+}
+
+.usuario p{
+    display: inline;
+}
+
+h1{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 10px;
+    height: 20px;
+}
+
+table{
+    color: rgb(177, 177, 177);
+}
+.portada{
+    height: 500px;
+    background: url("../img/bg-film.png");
+    
+}
+
+.portada p{
+    color: white;
+    width: 550px;
+}
+
+button{
+    display: inline-block;
+    text-align: center;
+    background-color: #415264;
+    border: #415264  0px solid;
+    height: 75px;
+    width: 100px;
+    color: white;
+}
+
+h2{
+    color: white;
+    border-bottom: 1px rgb(88, 88, 88) solid;
+}
+
+.relacionado{
+    text-align: center;
+}
+
+.relacionado img{
+    padding: 5px;
+    width: 250px;
+}
+
+.pie-de-pagina{
+position: relative;
+text-align: center;
+background-color: #1a242e;
+}
+
+.texto-final{
+    text-align: center;
+}
+
+.texto-final p{
+    color: rgb(157, 157, 157);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #0e171e;
+    padding: 2px;
+    color: #FFFFFF;
+    background-color: #0e171e;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #0e171e;
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap:1rem;
+    grid-template-areas: 
+    "photo1 photo4 photo4 photo4"
+    "photo2 photo4 photo4 photo4"
+    "photo3 photo4 photo4 photo4"
+    "photo5 photo5 photo6 photo6"
+    "photo7 photo8 photo9 photo9"
+    ;
+}
+#grid-container div{
+    /* border: 1px solid red; */
+}
+
+#grid-container img{
+    object-fit:cover;
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    border: 1px solid black;
+}
+
+.photo-1{
+    grid-area: photo1;
+    overflow: hidden;
+}
+.photo-2{
+    grid-area: photo2;
+}
+.photo-3{
+    grid-area: photo3;
+}
+.photo-4{
+    grid-area: photo4;
+}
+.photo-5{
+    grid-area: photo5;
+}
+.photo-6{
+    grid-area: photo6;
+}
+.photo-7{
+    grid-area: photo7;
+}
+.photo-8{
+    grid-area: photo8;
+}
+.photo-9{
+    grid-area: photo9;
+}
+
+</style>
+
+<body>
+    <div id="grid-container">
+        <div class="photo-1"><img src="./img/deadpool_1.png" alt=""></div>
+        <div class="photo-2"><img src="./img/deadpool_2.png" alt=""></div>
+        <div class="photo-3"><img src="./img/deadpool_3.png" alt=""></div>
+        <div class="photo-4"><img src="./img/deadpool_4.png" alt=""></div>
+        <div class="photo-5"><img src="./img/deadpool_5.png" alt=""></div>
+        <div class="photo-6"><img src="./img/deadpool_6.png" alt=""></div>
+        <div class="photo-7"><img src="./img/deadpool_7.png" alt=""></div>
+        <div class="photo-8"><img src="./img/deadpool_8.png" alt=""></div>
+        <div class="photo-9"><img src="./img/deadpool_9.png" alt=""></div>
+    </div>
+    
+</body>
+</html>
